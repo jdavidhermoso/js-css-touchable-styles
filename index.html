@@ -1,0 +1,69 @@
+<!Doctype>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> How to set tochable / not touchable styles </title>
+
+        <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+        <script src="vendors/jquery-ui.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="vendors/jquery-ui.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <div class="ts-container">
+            <h1> Quiddith teams </h1>
+            <div class="ts-data-container">
+                <table class="table table-bordered">
+                    <thead>
+                    <th>
+                        Team
+                    </th>
+                    <th>
+                        Situated
+                    </th>
+                    </thead>
+                    <tbody id="ts-data-tbody">
+                    <tr data-team-id="1">
+                        <td>
+                            Appleby Arrows
+                        </td>
+                        <td>
+                            Appleby-in-Westmorland
+                        </td>
+                    </tr>
+                    <tr data-team-id="2">
+                        <td>
+                            Chudley Cannons
+                        </td>
+                        <td>
+                            Chudley
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ts-team-profile-container">
+                <div class="ts-team-profile" data-team-id="1">
+                    <h2 class="ts-team-profile-name">
+                        Appleby Arrows
+                    </h2>
+                    <p class="ts-team-profile-desc">
+                        Colours are pale blue with a silver arrow. Founded in 1612. Has a rivalry with the Wasps (see below). (Name may also refer to Appleby, Lincolnshire.)
+                    </p>
+                </div>
+                <div class="ts-team-profile ts-hidden" data-team-id="2">
+                    <h2 class="ts-team-profile-name">
+                        Chudley Cannons
+                    </h2>
+                    <p class="ts-team-profile-desc">
+                        Bright orange and a double C with a speeding cannonball. The team's motto was originally "We shall conquer"; it was later changed to "Let's all just keep our fingers crossed and hope for the best." Once a decent team, the Cannons have fallen into a slump as of the publication of the series. Ron Weasley is a fan of the team. Founded in 1753.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

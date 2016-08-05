@@ -1,0 +1,32 @@
+html,body {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.ts-container {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+body:not(.touchable) .table>.ui-selectable>tr:hover:not(.ui-selected)>td {
+    background: #ff6d2e;
+    color: #ffffff;
+}
+table>tbody.ui-selectable>tr.ui-selected {
+    background-color: #1e85ff;
+    color: #ffffff;
+}
+.ts-hidden {
+    display: none;
+}
+.touchable .table>.ui-selectable>tr>td {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.touchable .table-hover>tbody>tr:hover {
+    background-color: transparent;
+}

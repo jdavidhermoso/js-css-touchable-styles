@@ -1,0 +1,1 @@
+The key of this project is show how to make special styles for touchable screens.
