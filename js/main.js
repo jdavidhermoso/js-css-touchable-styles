@@ -1,6 +1,6 @@
 (function(w,d) {
     function init() {
-        var touchable = 'ontouchstart' in document.documentElement,
+        var touchable = ('ontouchstart' in w) || w.DocumentTouch && d instanceof DocumentTouch),
             body = d.getElementsByClassName('body')[0];
         if (touchable) {
             body.classList.add('touchable');
